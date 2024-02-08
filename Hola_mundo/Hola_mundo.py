@@ -45,3 +45,33 @@ sub_cadena = saludo[0:4]
 print(sub_cadena)
 sub_cadena = saludo[5:9]
 print(sub_cadena)
+
+# Metodos de cadenas en python Crear Mayusculas
+saludo = 'muy bien gracias'
+saludo_mayus = saludo.upper()
+ 
+print(saludo_mayus)
+
+# Comvertir en minusculas
+saludo_minus = saludo_mayus.lower()
+print (saludo_minus)
+
+# Imprimir varios datos de string por concatenacion------------------------
+mi_cadena1 = 'Practicas de '
+mi_cadena2 = 'Python'
+
+yo_practico = mi_cadena1 + mi_cadena2
+print(mi_cadena1 + mi_cadena2 + ' que bien')
+yo_practico = f'wao {mi_cadena1}{mi_cadena2}'
+print(yo_practico)
+print(f'super {mi_cadena1}{mi_cadena2}')
+
+# Imprecion de cadenas multilineas
+print(f'''\tjupi jupi
+        {mi_cadena1}
+        {mi_cadena2}
+super wao''')
+
+# Entradas de datos por consolas
+
+
