@@ -67,11 +67,11 @@ print(yo_practico)
 print(f'super {mi_cadena1}{mi_cadena2}')
 
 # Imprecion de cadenas multilineas
-print(f'''\tjupi jupi
-        {mi_cadena1}
-        {mi_cadena2}
-super wao''')
-
+#
 # Entradas de datos por consolas
+#mensaje = #input('di tu nombre: ')
+#print(f'mi nombre es: {mensaje}')
 
-
+num_entrada1 = int(input('Dijite un numero para realizar una operacion aritmetrica: '))
+num_entrada2 = int(input('Dijite otro numero para hacer la operacion: '))
+print('la suma es: ', (num_entrada1 * num_entrada2) )
