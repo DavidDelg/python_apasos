@@ -42,7 +42,7 @@ result = num1 <= num2
 
 # Operadores Logicos and
 print('\n *** Operador and ***')
-comparacion1 = False
+comparacion1 = True
 comparacion2 = False
 
 if comparacion1 and comparacion2:
@@ -58,11 +58,15 @@ else:
     print(f'La comparacion de {comparacion1} o {comparacion2} es falsa\n')
 
 # Operador logico not
-print(f'\n*** Operador Logico not ***')
-if not  comparacion1:
-    print(f'La comparacion de {comparacion1} ahora a combiado a: {comparacion1}')
+print(f'*** Operador Logico not ***')
+comparacion1 = True
+result =  not comparacion1
+if result:
+    print(f'La comparacion de {comparacion1} ahora a combiado1 a: {result}')
+    comparacion1 = False
 else:
-    print(f'La variables {comparacion1} no a cambiado')
+    print(f'La comparacion de {comparacion1} ahora a combiado2 a: {result} \n')
+    comparacion1 = True
 
 
 
