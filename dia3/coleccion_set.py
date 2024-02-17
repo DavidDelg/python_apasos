@@ -4,4 +4,9 @@ print('*** Manejo de colecion set ***')
 # no se puede buscar por indice 
 conjunto_set = {'jhon', 100, 'Laura', True, 'moncho'}
 conjunto_set.add('pepe')
-print(f'''Este es un Conjunto: {conjunto_set}''')
+
+for element in conjunto_set:
+    pass
+   # print( element, end='_ ')
+
+print(f'''\n--Este es un Conjunto: {conjunto_set}''')
